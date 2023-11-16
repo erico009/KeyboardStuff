@@ -1,0 +1,28 @@
+// Copyright 2023 QMK
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#include QMK_KEYBOARD_H
+const uint16_t PROGMEM middle_mouse[] = {KC_BTN1, KC_BTN2, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(middle_mouse, KC_BTN3),
+};
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    [0] = LAYOUT_5x7_2(
+		KC_SPC, KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC, 
+		KC_RBRC, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_ENT, 
+		KC_EQUAL, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, 
+		KC_SPC, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_LSFT, 
+		KC_NO, KC_SPC, KC_NO, KC_NO, KC_BTN1, KC_BTN2, MO(1)),
+	[1] = LAYOUT_5x7_2(
+		KC_TRNS, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_TRNS, 
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
+		KC_TRNS, QK_BOOT, KC_TRNS, KC_TRNS, KC_BTN4, KC_BTN5, MO(1)),
+};
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
+    [0] =   { ENCODER_CCW_CW(KC_UP, KC_DOWN), ENCODER_CCW_CW(KC_RIGHT, KC_LEFT)  },
+	[1] =   { ENCODER_CCW_CW(KC_UP, KC_DOWN), ENCODER_CCW_CW(KC_RIGHT, KC_LEFT)  },
+};
+#endif
