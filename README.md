@@ -1,4 +1,5 @@
 ![image](https://github.com/erico009/KeyboardStuff/assets/135387637/5ce198ec-fd96-4c1c-832f-788207e81d66)
+https://teletype.in/@gleb.sexy/big-l
 
 
 https://github.com/MattBlissett/qmk_firmware/commit/16ed43b4dc5c786f69ceaa68fbfaec1b29208507
