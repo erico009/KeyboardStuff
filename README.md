@@ -1,3 +1,6 @@
+![image](https://github.com/erico009/KeyboardStuff/assets/135387637/33f5b7d6-9f2b-4eeb-bca3-e1f3ac864394)
+
+
 ![image](https://github.com/erico009/KeyboardStuff/assets/135387637/0fbe95f4-878a-4a27-b821-ee8dc7d355eb)
 https://deskthority.net/wiki/Elite-C
 
