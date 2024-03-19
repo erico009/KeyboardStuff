@@ -1,3 +1,6 @@
+![image](https://github.com/erico009/KeyboardStuff/assets/135387637/0fbe95f4-878a-4a27-b821-ee8dc7d355eb)
+https://deskthority.net/wiki/Elite-C
+
 ![image](https://github.com/erico009/KeyboardStuff/assets/135387637/5ce198ec-fd96-4c1c-832f-788207e81d66)
 https://teletype.in/@gleb.sexy/big-l
 
